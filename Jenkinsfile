@@ -9,6 +9,11 @@ pipeline {
         }
         stage('number3') {
             steps {
+                sleep 120
+            }
+        }
+        stage('number3') {
+            steps {
                 echo 'Hello Pune'
             }
         }
