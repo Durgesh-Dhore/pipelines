@@ -7,7 +7,7 @@ pipeline {
                 echo 'Hello World'
             }
         }
-        stage('number3') {
+        stage('number2') {
             steps {
                 sleep 120
             }
