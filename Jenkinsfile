@@ -9,7 +9,7 @@ pipeline {
         }
         stage('number2') {
             steps {
-                sleep 120
+                sleep 200
             }
         }
         stage('number3') {
